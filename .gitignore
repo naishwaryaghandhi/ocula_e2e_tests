@@ -1,0 +1,4 @@
+.venv/*
+.idea/*
+pages/__pycache__/*
+tests/__pycache__/*
