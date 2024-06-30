@@ -29,7 +29,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: false
-          tags: ocula_e2e_tests:latest
+          tags: naishwaryaghandhi/ocula_e2e_tests:latest
 
       - name: Run container
-        run: docker run ocula_e2e_tests:latest
+        run: docker run naishwaryaghandhi/ocula_e2e_tests:latest
