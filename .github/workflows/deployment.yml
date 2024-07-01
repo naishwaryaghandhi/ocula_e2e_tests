@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          push: false
+          push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/ocula_tests:latest
           platforms: linux/amd64
 
