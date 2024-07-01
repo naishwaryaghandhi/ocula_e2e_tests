@@ -12,9 +12,15 @@ OpenWeatherMap API.
 - Docker
 - GitHub Actions
 
-### Running Tests Locally
+### Running Tests
 
-1. Build and run the Docker image:
+1. Run from GitHub Actions
+    click Actions tab
+    Click on the workflow name Docker Build, Test, and Push
+    Click on Run workflow in the right hand side
+    Check logs from Run container
+
+3. Running Tests Locally- Build and run the Docker image:
 
 ```bash
 docker build -t naishwaryaghandhi/ocula_tests:latest .
