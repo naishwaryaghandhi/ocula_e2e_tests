@@ -19,7 +19,7 @@ source $VENV_DIR/bin/activate
 pytest -s tests/test_ocula_resources.py
 
 # Run the API test
-pytest tests/test_weather_api.py
+pytest -s tests/test_weather_api.py
 
 # Deactivate virtual environment
 deactivate
