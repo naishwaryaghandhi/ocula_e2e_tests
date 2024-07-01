@@ -30,6 +30,7 @@ jobs:
           file: ./Dockerfile
           push: false
           tags: ${{ secrets.DOCKER_USERNAME }}/ocula_tests:latest
+          platforms: linux/amd64
 
       - name: Run container
-        run: docker run ${{ secrets.DOCKER_USERNAME }}/ocula_tests:latest
+        run: docker run --platform linux/amd64 ${{ secrets.DOCKER_USERNAME }}/ocula_tests:latest
