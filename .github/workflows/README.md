@@ -17,8 +17,8 @@ OpenWeatherMap API.
 1. Build and run the Docker image:
 
 ```bash
-docker build -t naishwaryaghandhi/ocula_e2e_tests:latest .
-docker run --rm naishwaryaghandhi/ocula_e2e_tests:latest
+docker build -t naishwaryaghandhi/ocula_tests:latest .
+docker run --rm naishwaryaghandhi/ocula_tests:latest
 ```
 
 ### Conclusion
