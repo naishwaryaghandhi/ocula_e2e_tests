@@ -20,7 +20,7 @@ OpenWeatherMap API.
     Click on Run workflow in the right hand side
     Check logs from Run container
 
-3. Running Tests Locally- Build and run the Docker image:
+2. Running Tests Locally- Build and run the Docker image:
 
 ```bash
 docker build -t naishwaryaghandhi/ocula_tests:latest .
