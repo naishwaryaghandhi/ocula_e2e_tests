@@ -29,7 +29,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: false
-          tags: ${{ secrets.DOCKER_USERNAME }}/ocula_e2e_tests:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/ocula_tests:latest
 
       - name: Run container
-        run: docker run ${{ secrets.DOCKER_USERNAME }}/ocula_e2e_tests:latest
+        run: docker run ${{ secrets.DOCKER_USERNAME }}/ocula_tests:latest
