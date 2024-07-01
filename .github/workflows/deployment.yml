@@ -1,10 +1,11 @@
 name: Docker Build, Test, and Push
 
-on: workflow_dispatch
+on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch:  # Adding this line to enable manual trigger
 
 jobs:
   build:
