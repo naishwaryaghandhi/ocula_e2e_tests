@@ -8,8 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --upgrade pip \
-    & pip install -r resources/requirements.txt
+RUN pip3 install -r resources/requirements.txt
 
 # Install Playwright browsers
 RUN playwright install \
